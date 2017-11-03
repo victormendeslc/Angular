@@ -34,7 +34,7 @@
                 <span [ngStyle]="{ color: lanc.tipo === 'DESPESA' ?'red':'blue'}">{{lanc.valor}}</span>
               </ng-template>
             </p-column>
-            <p-column>
+            <p-column styleClass="col-acoes">
                 <ng-template pTemplate="body">
                   <a pButton icon="fa-pencil"></a>
                   <button pButton icon="fa-trash"></button>
